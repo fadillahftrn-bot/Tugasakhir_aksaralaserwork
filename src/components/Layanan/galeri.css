@@ -1,0 +1,116 @@
+/* Galeri Component Styles */
+.galeri-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px 0;
+}
+
+.galeri-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.galeri-subtitle {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 50px;
+}
+
+.gallery-card {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.gallery-image {
+  height: 200px;
+  object-fit: cover;
+  transition: all 0.3s ease;
+}
+
+.gallery-card:hover .gallery-image {
+  transform: scale(1.05);
+}
+
+.gallery-title-small {
+  font-size: 0.9rem;
+  color: #333;
+  margin: 0;
+}
+
+/* Modal Styles */
+.modal-close-btn-custom {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 10;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.7);
+  border: none;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.modal-close-btn-custom:hover {
+  background: rgba(0, 0, 0, 0.9);
+  transform: scale(1.1);
+}
+
+.modal-image {
+  width: 100%;
+  height: auto;
+  max-height: 80vh;
+  object-fit: contain;
+  display: block;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .galeri-container {
+    padding: 10px 0;
+  }
+
+  .galeri-title {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+
+  .galeri-subtitle {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+
+  .gallery-image {
+    height: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .galeri-title {
+    font-size: 1.8rem;
+  }
+
+  .galeri-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .gallery-image {
+    height: 120px;
+  }
+}

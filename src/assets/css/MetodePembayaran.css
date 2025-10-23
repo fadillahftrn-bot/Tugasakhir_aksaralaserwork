@@ -1,0 +1,84 @@
+/* src/assets/css/MetodePembayaran.css */
+
+/* Gaya utama container card */
+.metode-pembayaran-card {
+    max-width: 600px;
+    margin: 3rem auto;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/* Header card (diambil dari bg-primary) */
+.metode-pembayaran-card .card-header {
+    padding: 1.5rem;
+}
+
+/* Detail Transaksi Section */
+.detail-transaksi {
+    border: 1px dashed #ccc;
+    border-radius: 8px;
+    background-color: #f8f9fa; /* light grey background */
+}
+
+.detail-transaksi h4 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+/* Gaya Form Metode Pembayaran */
+.metode-form {
+    padding: 10px 0;
+}
+
+.metode-form h5 {
+    color: #343a40;
+    margin-bottom: 15px;
+}
+
+/* Mengelompokkan opsi bank/e-wallet */
+.metode-group {
+    border: 1px solid #dee2e6;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Gaya untuk setiap radio button (Form.Check) */
+.form-check {
+    margin-bottom: 10px;
+    padding-left: 2.5em; /* Memberi ruang untuk radio button default */
+}
+
+/* Teks informasi tambahan di bawah label (No. Rekening/Nomor HP) */
+.metode-info {
+    font-size: 0.9em;
+    font-weight: normal;
+    color: #6c757d;
+    margin-top: 2px;
+}
+
+/* Gaya Tombol Konfirmasi */
+.konfirmasi-btn {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 50px; /* Bentuk pil agar lebih menarik */
+    transition: background-color 0.3s ease;
+}
+
+.konfirmasi-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* Responsiveness dasar */
+@media (max-width: 768px) {
+    .metode-pembayaran-card {
+        margin: 1rem;
+        max-width: 100%;
+    }
+    
+    .konfirmasi-btn {
+        width: 100% !important;
+    }
+}

@@ -1,0 +1,85 @@
+/* ====================================
+   GRID LAYOUT - FIXED & RESPONSIVE (5 Columns)
+   ==================================== */
+
+.product-grid-container {
+  padding: 30px 20px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 🔹 5 kolom utama */
+  gap: 24px;
+  align-items: stretch;
+}
+
+/* Ensure equal heights */
+.product-grid > * {
+  display: flex;
+}
+
+/* ====================================
+   PRODUCT CARD STYLING
+   ==================================== */
+
+.product-card {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid #f0f0f0;
+}
+
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+  border-color: #1DC7EA;
+}
+
+/* ====================================
+   RESPONSIVE BREAKPOINTS (Updated for 5 Columns)
+   ==================================== */
+
+/* 🖥️ Extra Large Desktop - 5 columns */
+@media (min-width: 1600px) {
+  .product-grid {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+  }
+}
+
+/* 💻 Desktop - 4 columns */
+@media (min-width: 1200px) and (max-width: 1599px) {
+  .product-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 26px;
+  }
+}
+
+/* 💻 Laptop - 3 columns */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .product-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+  }
+}
+
+/* 📱 Tablet - 2 columns */
+@media (min-width: 768px) and (max-width: 991px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+  }
+}
+
+/* 📱 Mobile - 1 column */
+@media (max-width: 767px) {
+  .product-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}

@@ -1,0 +1,16 @@
+/* custom-sidebar.css */
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 260px;
+  z-index: 100;
+}
+
+.main-panel {
+  margin-left: 260px;
+  width: calc(100% - 260px);
+  background: rgba(203, 203, 210, 0.15);
+  min-height: 100vh;
+}
