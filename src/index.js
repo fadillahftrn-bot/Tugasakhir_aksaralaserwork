@@ -10,16 +10,18 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 
 import AdminLayout from "layouts/Admin.js";
 import Login from "views/Login.jsx";
+import CompanyProfile from "views/CompanyProfile.jsx"; // ✅ Tambahkan
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-
   <BrowserRouter>
     <Routes>
+      {/* ✅ Halaman utama (/) menampilkan CompanyProfile */}
+      <Route path="/" element={<CompanyProfile />} />
       <Route path="/login" element={<Login />} />
       <Route path="/admin/*" element={<AdminLayout />} />
-      <Route path="*" element={<Navigate to="/login" replace />} />
+      <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
   </BrowserRouter>
 );

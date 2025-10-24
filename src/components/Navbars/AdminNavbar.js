@@ -32,7 +32,7 @@ function Header() {
   // 🔹 Fungsi logout
   const handleLogout = () => {
     localStorage.removeItem("token");
-    navigate("/login");
+    navigate("/");
   };
 
   // 🔹 Navigasi ke halaman pelanggan
