@@ -1,0 +1,199 @@
+{
+  "paket": [
+    {
+      "id": "1",
+      "foto": "/Paket/Paket 1- id card.jpg",
+      "nama_paket": "ID Card Custom",
+      "deskripsi": "Harga setiap Pembuatan ID Card Custom tergantung pada desain, bahan, dan jumlah pesanan. Kami menawarkan berbagai pilihan bahan seperti akrilik, PVC, atau kayu dengan teknologi laser cutting dan engraving untuk hasil yang presisi dan tahan lama.",
+      "harga": "Rp 150.000 - Rp 500.000"
+    },
+    {
+      "id": "2",
+      "foto": "/Paket/Paket 2.jpg",
+      "nama_paket": "Softcase Ukir Laser",
+      "deskripsi": "Softcase handphone custom dengan ukiran laser presisi. Pilihan bahan berkualitas tinggi untuk perlindungan maksimal dan desain unik sesuai keinginan pelanggan.",
+      "harga": "Rp 100.000 - Rp 350.000"
+    },
+    {
+      "id": "3",
+      "foto": "/Paket/Paket3.jpg",
+      "nama_paket": "Custom Design & Souvenir",
+      "deskripsi": "Desain grafis dan produksi souvenir custom sesuai permintaan. Cocok untuk event, merchandise, atau hadiah korporat.",
+      "harga": "Mulai dari Rp 250.000"
+    },
+    {
+      "id": "4",
+      "foto": "/Paket/Paket4.jpg",
+      "nama_paket": "Custom Packaging Premium",
+      "deskripsi": "Kemasan akrilik atau kayu premium dengan desain laser cutting khusus untuk produk eksklusif.",
+      "harga": "Rp 200.000 - Rp 600.000"
+    }
+  ],
+  "produk": [
+    {
+      "id": "1",
+      "foto": "/Produk/box.jpg",
+      "nama_produk": "Box Akrilik Kosong",
+      "deskripsi": "Box akrilik transparan untuk kemasan souvenir pernikahan dan hadiah eksklusif."
+    },
+    {
+      "id": "2",
+      "foto": "/Produk/case hp kotak.jpg",
+      "nama_produk": "Softcase HP Kotak",
+      "deskripsi": "Softcase handphone custom dengan desain unik sesuai keinginan pelanggan."
+    },
+    {
+      "id": "3",
+      "foto": "/Produk/bingkai.jpg",
+      "nama_produk": "Bingkai Foto Ukir",
+      "deskripsi": "Bingkai foto dari akrilik atau kayu yang dapat diukir dengan desain pilihan pelanggan."
+    },
+    {
+      "id": "4",
+      "foto": "/Produk/keychain.jpg",
+      "nama_produk": "Gantungan Kunci Kosong",
+      "deskripsi": "Blank keychain dari akrilik atau kayu sebelum proses engraving.",
+      "satuan": "pcs"
+    },
+    {
+      "id": "5",
+      "foto": "/Produk/medali.jpg",
+      "nama_produk": "Medali Emas",
+      "deskripsi": "Medali eksklusif dengan ukiran laser untuk event, perlombaan, dan penghargaan."
+    },
+    {
+      "id": "6",
+      "foto": "/Produk/plakat.jpg",
+      "nama_produk": "Plakat Akrilik Custom",
+      "deskripsi": "Plakat penghargaan dari akrilik premium dengan desain dan ukiran sesuai permintaan."
+    },
+    {
+      "id": "7",
+      "foto": "/Produk/id card.jpg",
+      "nama_produk": "Name Tag Karyawan",
+      "deskripsi": "Name tag profesional dari akrilik dengan laser engraving logo perusahaan."
+    },
+    {
+      "id": "8",
+      "foto": "/Produk/holder polos.jpg",
+      "nama_produk": "Id holder kulit asli",
+      "deskripsi": "wadah kartu identitas dari kulit asli dengan desain elegan dan tahan lama."
+    },
+    {
+      "id": "9",
+      "foto": "/Produk/no meja.jpg",
+      "nama_produk": "No meja Ukir",
+      "deskripsi": "No meja dari kayu jadi asli dengan ukiran nama atau nomor meja menggunakan laser."
+    },
+    {
+      "id": "10",
+      "foto": "/Produk/ganci motortas.jpg",
+      "nama_produk": "Gantungan Kunci ukir",
+      "deskripsi": "Gantungan kunci custom dari akrilik atau kayu dengan ukiran nama atau desain pilihan."
+    },
+    {
+      "id": "11",
+      "foto": "/Produk/case hp kotak.jpg",
+      "nama_produk": "Softcase HP Custom",
+      "deskripsi": "Softcase handphone custom dengan ukiran laser presisi. Pilihan bahan berkualitas tinggi untuk perlindungan maksimal dan desain unik sesuai keinginan pelanggan."
+    },
+    {
+      "id": "12",
+      "foto": "/Produk/ganci buled.jpg",
+      "nama_produk": "Gantungan Kunci Buled",
+      "deskripsi": "Gantungan kunci custom dari akrilik atau kayu dengan ukiran nama atau desain pilihan."
+    },
+    {
+      "id": "13",
+      "foto": "/Produk/case hp dompet.jpg",
+      "nama_produk": "Softcase HP dompet",
+      "deskripsi": "Softcase handphone custom dengan desain unik sesuai keinginan pelanggan."
+    },
+    {
+      "id": "14",
+      "foto": "/Produk/pin.jpg",
+      "nama_produk": "Pin/Badge Ukir Laser",
+      "deskripsi": "Pin/badge custom dari akrilik atau logam dengan ukiran laser untuk event atau promosi."
+    },
+    {
+      "id": "15",
+      "foto": "/Produk/box rokok.jpg",
+      "nama_produk": "Box wadah rokok",
+      "deskripsi": "Box akrilik transparan untuk kemasan souvenir pernikahan dan hadiah eksklusif."
+    }
+  ],
+  "transaksi": [
+    {
+      "id": 1761215544690,
+      "nama_pemesan": "Fadillah Fitriani Supriatna Supriatna",
+      "email": "fadillahftrn@gmail.com",
+      "no_hp": "087830617650",
+      "tanggal": "2025-10-23",
+      "status": "Menunggu Pembayaran",
+      "total": 150000500000,
+      "metode_pembayaran": "Belum dipilih",
+      "detail": [
+        {
+          "id_paket": 1,
+          "nama_paket": "ID Card Custom",
+          "qty": 1,
+          "harga_satuan": 150000500000,
+          "subtotal": 150000500000
+        }
+      ]
+    },
+    {
+      "id": 1761219228435,
+      "nama_pemesan": "Fadillah Fitriani Supriatna Supriatna",
+      "email": "fadillahftrn@gmail.com",
+      "no_hp": "087830617650",
+      "tanggal": "2025-10-23",
+      "status": "Menunggu Pembayaran",
+      "total": 250000,
+      "metode_pembayaran": "Belum dipilih",
+      "detail": [
+        {
+          "id_paket": "3",
+          "nama_paket": "Custom Design & Souvenir",
+          "qty": 1,
+          "harga_satuan": 250000,
+          "subtotal": 250000
+        }
+      ]
+    }
+  ],
+  "pelanggan": [
+    {
+      "id": "1",
+      "nama": "Mike Andrew",
+      "email": "mike.andrew@email.com",
+      "telepon": "+62 812-3456-7890",
+      "alamat": "Jl. Melati No. 45, Bandung",
+      "saldo": 1500000,
+      "bergabung": "2022-01-12",
+      "status_member": "Gold"
+    },
+    {
+      "id": "2",
+      "nama": "Sarah Johnson",
+      "email": "sarah.johnson@email.com",
+      "telepon": "+62 813-1122-7788",
+      "alamat": "Jl. Anggrek No. 7, Jakarta",
+      "saldo": 500000,
+      "bergabung": "2023-06-20",
+      "status_member": "Silver"
+    }
+  ],
+  "akun": [
+    {
+      "username": "admin",
+      "password": "admin123",
+      "id": "f67f"
+    },
+    {
+      "username": "fadillah",
+      "password": "dilla2511",
+      "id": "de2a"
+    }
+  ]
+}
