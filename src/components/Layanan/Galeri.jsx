@@ -50,7 +50,7 @@ function Galeri() {
 
   return (
     <div className="galeri-container">
-      <Container className="py-5">
+      <Container className="py-2">
         <Row className="mb-5">
           <Col>
             <h1 className="text-center galeri-title">

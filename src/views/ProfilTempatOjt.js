@@ -174,7 +174,7 @@ export default function ProfilTempatOjt() {
                   </div>
                   <Button
                     variant="primary"
-                    href="https://maps.google.com"
+                    href="https://www.google.com/maps/place/Aksara+Laserwork/@-7.2210361,107.9182305,668m/data=!3m2!1e3!4b1!4m6!3m5!1s0x2e68b1739b97a147:0x1eab9757aeebc735!8m2!3d-7.2210361!4d107.9208054!16s%2Fg%2F11v13ckf94?entry=ttu&g_ep=EgoyMDI1MTAyMC4wIKXMDSoASAFQAw%3D%3D"
                     target="_blank"
                     className="btn-primary"
                   >

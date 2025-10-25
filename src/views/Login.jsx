@@ -86,7 +86,7 @@ export default function Login() {
           <hr className="my-3" /> {/* Garis pemisah */}
         </div>
         
-        <h4 className="text-center mb-4" style={{ color: "#333" }}>Login Admin</h4>
+        <h4 className="text-center mb-4" style={{ color: "#333" }}>Login Pelanggan</h4>
         
         <form onSubmit={handleLogin}>
           <div className="mb-3">

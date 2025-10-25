@@ -127,31 +127,7 @@ function Header() {
               </Nav.Link>
             </Nav.Item>
 
-            {/* 🔹 Dropdown Jasa */}
-            <Dropdown as={Nav.Item}>
-              <Dropdown.Toggle
-                as={Nav.Link}
-                id="navbarDropdownMenuLink"
-                variant="default"
-                className="m-0"
-              >
-                <span className="no-icon">Jasa</span>
-              </Dropdown.Toggle>
-              <Dropdown.Menu aria-labelledby="navbarDropdownMenuLink">
-                <Dropdown.Item onClick={() => goToLayanan("laser-cutting")}>
-                  Laser Cutting
-                </Dropdown.Item>
-                <Dropdown.Item onClick={() => goToLayanan("laser-engraving")}>
-                  Laser Engraving
-                </Dropdown.Item>
-                <Dropdown.Item onClick={() => goToLayanan("laser-marking")}>
-                  Laser Marking
-                </Dropdown.Item>
-                <Dropdown.Item onClick={() => goToLayanan("custom-design")}>
-                  Custom Design
-                </Dropdown.Item>
-              </Dropdown.Menu>
-            </Dropdown>
+           
 
             {/* 🔹 Logout */}
             <Nav.Item>
